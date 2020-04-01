@@ -1,0 +1,107 @@
+//Blink 
+
+int led = D7; 
+
+void setup() {
+
+
+	pinMode(led, OUTPUT);
+
+}
+
+
+void loop() {
+	// To blink the LED, first we'll turn it on...
+	
+	//To write Yousef
+	
+	// letter "Y"
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	
+	
+	// letter "O"
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	
+	
+	// letter "U"
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	
+	// letter "S"
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	
+	// letter "E"
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	
+	// letter "F"
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(1000);
+	digitalWrite(led, LOW);
+	delay(1000);
+	digitalWrite(led, HIGH);
+	delay(500);
+	digitalWrite(led, LOW);
+	delay(1000);
+
+
+	// And repeat!
+}
+
